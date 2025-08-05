@@ -1,0 +1,409 @@
+/* Extra small devices (<576px) */
+@media (max-width: 575.98px) {
+  .logo a {
+    font-size: 1.4rem;
+    white-space: nowrap;
+    /* Prevent breaking the logo */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .icon {
+    display: block;
+  }
+
+  .navigation {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 5%;
+    width: 50%;
+    background-color: white;
+    padding: 1rem;
+    flex-direction: column;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+  .navigation.active {
+    display: flex;
+  }
+
+  .navigation ul {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .navigation button {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .brand {
+    width: 80%;
+  }
+
+  .brand h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+
+  .featuers {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 2rem 5%;
+
+    grid-template-columns: 1fr;
+  }
+
+
+
+  .our-feature {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  br {
+    display: none;
+
+  }
+
+  .team {
+    grid-template-columns: 1fr;
+  }
+
+  .our-feature h2 {
+    font-size: 1.8rem;
+  }
+
+  .our-feature p {
+    font-size: 0.9rem;
+  }
+
+  .our-feature button {
+    width: 100%;
+  }
+
+  .All-experience {
+
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .experience-info {
+    width: 100%;
+
+  }
+
+  .expert {
+    width: 100%;
+    height: 100vh;
+    margin-top: 4rem;
+
+
+  }
+
+ 
+
+
+
+
+
+
+}
+
+/* Small devices (≥576px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .logo a {
+    font-size: 1.6rem;
+    white-space: nowrap;
+    /* Prevent breaking the logo */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .icon {
+    display: block;
+  }
+
+  .navigation {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 5%;
+    width: 40%;
+    background-color: white;
+    padding: 1rem;
+    flex-direction: column;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+  .navigation.active {
+    display: flex;
+  }
+
+  .navigation ul {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .navigation button {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .brand {
+    width: 70%;
+  }
+
+  .brand h1 {
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+  }
+
+  .team {
+    grid-template-columns: 1fr;
+  }
+
+  .featuers {
+    display: flex;
+    flex-direction: column-reverse;
+    grid-template-columns: 1fr;
+  }
+
+  .our-feature h2 {
+    font-size: 2rem;
+  }
+
+  .our-feature {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .our-feature button {
+    font-size: .7rem;
+  }
+
+  br {
+    display: none;
+
+  }
+
+  .All-experience {
+
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .experience-info {
+    width: 100%;
+
+  }
+
+  .expert {
+    width: 100%;
+    height: 100vh;
+
+
+  }
+
+
+
+  .expert-img {
+
+    margin-top: 3rem;
+
+
+
+  }
+}
+
+/* Medium devices (≥768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header {
+    padding: 0 5%;
+  }
+
+  .logo a {
+    font-size: 1.8rem;
+    white-space: nowrap;
+    /* Prevent breaking the logo */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .icon {
+    display: block;
+  }
+
+  .navigation {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 5%;
+    width: 40%;
+    background-color: white;
+    padding: 1rem;
+    flex-direction: column;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+  .navigation.active {
+    display: flex;
+  }
+
+  .navigation ul {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .navigation button {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .heroes {
+    height: 500px;
+
+
+  }
+
+
+  .featuers {
+    display: flex;
+    flex-direction: column-reverse;
+
+    grid-template-columns: 1fr;
+  }
+
+  .our-feature h2 {
+    font-size: 2.2rem;
+  }
+
+  .our-feature {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  br {
+    display: none;
+
+  }
+
+
+
+}
+
+/* Large devices (≥992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  header {
+    padding: 0 6%;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .navigation {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    position: static;
+    background-color: transparent;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .navigation ul {
+    flex-direction: row;
+  }
+
+  .navigation button {
+    margin-top: 0;
+    width: auto;
+  }
+
+  .brand {
+    width: 60%;
+  }
+
+  .brand h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .brand p {
+    font-size: 1rem;
+    line-height: 1.7rem;
+  }
+
+
+}
+
+/* Extra large devices (≥1200px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  header {
+    padding: 0 8%;
+  }
+
+  .navigation {
+    gap: 2rem;
+  }
+
+  .brand {
+    width: 50%;
+  }
+
+  .brand h1 {
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+  }
+
+  .heroes {
+    height: 600px;
+  }
+
+  .featuers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .our-feature h2 {
+    font-size: 2.5rem;
+  }
+
+
+}
+
+/* Extra extra large devices (≥1400px) */
+@media (min-width: 1400px) {
+  header {
+    padding: 0 10%;
+  }
+
+  .navigation {
+    gap: 2.5rem;
+  }
+
+  .brand {
+    width: 45%;
+  }
+
+  .brand h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+
+}

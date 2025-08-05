@@ -1,2 +1,345 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.hide {
+    display: none;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 0 10%;
+
+}
+
+.nav {
+    width: 100%;
+    height: 10vh;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 40%;
+
+}
+
+.logo a {
+    color: rgb(19, 19, 19);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation ul {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.navigation ul a {
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 2rem;
+
+}
+
+.navigation button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(66, 66, 66);
+    cursor: pointer;
+
+}
+
+/* end navigation */
+/* start header body*/
+.brand-info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.brand {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.brand h1 {
+    color: rgb(19, 19, 19);
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 75px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.brand p {
+    color: rgb(114, 114, 114);
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 1rem;
+}
+
+.brand button {
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.heroes {
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+
+}
+
+.heroes img {
+    width: 100%;
+    height: 100%;
+}
+
+/* start main section */
+.featuers {
+    width: 100%;
+    background-color: #fff;
+    padding: 3rem 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.team img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+
+}
+
+.our-feature {
+    display: flex;
+    align-self: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.our-feature h2 {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+    text-align: left;
+    color: rgb(114, 114, 114);
+
+}
+
+.bold {
+    color: rgb(19, 19, 19);
+    font-weight: 700;
+}
+
+.orange {
+    color: rgb(255, 144, 14);
+    font-weight: 700;
+
+}
+
+.our-feature p {
+    color: rgb(114, 114, 114);
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    text-align: left;
+}
+
+.our-feature button {
+    width: 30%;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    color: rgb(255, 255, 255);
+    font-size: .8rem;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    margin-top: 1rem;
+}
+
+/* start experience section */
+.All-experience {
+
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 4rem 10%;
+}
+
+.experience-info {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 5%;
+}
+
+.experience-info h1 {
+    color: rgb(19, 19, 19);
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 3rem;
+    text-align: left;
+    border-left: 5px solid rgb(255, 144, 14);
+    padding: 0 .5rem;
+}
+
+.experience-info p {
+    color: rgb(114, 114, 114);
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+.ech-info {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+
+.ech-info h2 {
+    color: rgb(19, 19, 19);
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.ech-info p {
+    color: rgb(114, 114, 114);
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5rem6px;
+    text-align: left;
+}
+
+.expert {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+}
+
+.expert-years {
+    margin-left: -5rem;
+    margin-bottom: -4rem;
+    width: 14rem;
+    height: 9rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+
+}
+
+.expert-years h1 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.expert-years span {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.expert-img {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+
+
+}
+
+.img {
+    background-image: url(../images/architect.png);
+    width: 90%;
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
